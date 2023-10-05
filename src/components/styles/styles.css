@@ -1,0 +1,9 @@
+.side-bar{
+    width: 100%;
+    height: calc(100vh - 68px);
+    top: 68px;
+}
+
+#check:checked  ~ section{
+    right: 0;
+}
